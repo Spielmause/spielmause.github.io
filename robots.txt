@@ -1,0 +1,40 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://spielmäuse.de/sitemap.xml
+
+# KI-Agenten & Search Crawler explizit erlaubt
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Kein Zugriff auf interne Pfade
+Disallow: /api/
+Disallow: /_/
